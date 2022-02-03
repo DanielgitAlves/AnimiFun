@@ -1,51 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>AnimeFun</title>
+    <title>Navbar</title>
+    <link rel="stylesheet" href="/src/assets/css/style.css" />
   </head>
+
   <body>
     <header>
       <nav>
-        <ul class="menu">
-          <a href="#"><li>Animes</li></a>
-          <a href="#"><li>Filmes</li></a>
+        <a class="logo" href="/">AnimiFun</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Gênero</a></li>
+          <li><a href="#">Sugestão</a></li>
+          <li><a href="#">Contato</a></li>
         </ul>
       </nav>
     </header>
-
-    <section>
-      <h1>Animes</h1>
-      <div class="animes">
-        <div>
-          <img src="/src/assets/img/Castlevania.jpg" alt="Castlevania" />
-          <p>Castlevania</p>
-        </div>
-        <div>
-          <img
-            src="/src/assets/img/Nanatsu no Taizai.jpg"
-            alt="Nanatsu no Taizai"
-          />
-          <p>Nanatsu no Taizai</p>
-        </div>
-        <div>
-          <img
-            src="/src/assets/img/Record of Ragnarok.jpg"
-            alt="Record of Rangnarok"
-          />
-          <p>Record of Ragnarok</p>
-        </div>
-        <div>
-          <img
-            src="/src/assets/img/Hanyō no Yashahime.jpg"
-            alt="Hanyō no Yashahime"
-          />
-          <p>Hanyō no Yashahime</p>
-        </div>
-      </div>
-    </section>
+    <main></main>
+    <script src="/src/assets/js/mobile-navbar.js"></script>
   </body>
 </html>
